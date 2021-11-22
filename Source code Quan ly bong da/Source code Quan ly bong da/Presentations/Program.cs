@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Presentations.Giao_dien_chinh;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
@@ -15,7 +16,7 @@ namespace Presentations
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GiaoDienChinh());
+            Application.Run(new GiaoDienChinh1());
         }
     }
 }

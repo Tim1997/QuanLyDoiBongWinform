@@ -76,6 +76,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QuanLyBongDaDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Giao dien chinh\GiaoDienChinh1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giao dien chinh\GiaoDienChinh1.Designer.cs">
+      <DependentUpon>GiaoDienChinh1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Quan ly doi bong\ChiTietDanhSachCauThu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Giao dien chinh\GiaoDienChinh1.resx">
+      <DependentUpon>GiaoDienChinh1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Quan ly  ket qua\QuanLyKetQua.resx">
       <DependentUpon>QuanLyKetQua.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -257,6 +266,9 @@
     <Content Include="Data\QuanLyBongDa_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>QuanLyBongDa.mdf</DependentUpon>
+    </Content>
+    <Content Include="Resources\background.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="ClassDiagram1.cd" />
     <None Include="Resources\button1.jpg" />
